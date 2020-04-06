@@ -1,0 +1,210 @@
+/* Layout */
+html {
+    background: #eee;
+    font-family: sans-serif;
+    line-height: 1.5;
+}
+body {
+    background: #ffffff;
+    box-shadow: 5px 0 5px #ddd, -5px 0 5px #ddd;
+    margin: 0 auto;
+    max-width: 50em;
+    padding: 0.25em 2em;
+}
+@media only screen and (max-width: 1024px) {
+    body {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+header > nav,
+main > section,
+body > footer {
+    border-top: 2px solid #eef;
+    padding: 0.5em 1em;
+    margin: 0 -1em;
+}
+footer {
+    font-size: 0.8em;
+}
+header address {
+    clear: left;
+}
+header address ul {
+    margin: 0;
+    padding: 0;
+}
+header address li {
+    display: inline;
+    margin-right: 0.5em;
+}
+header aside {
+    float: left;
+    margin: 0 1em 1em 0;
+}
+aside {
+    float: right;
+    margin: 0 0 1em 1em;
+}
+aside img {
+    display: block;
+    margin: 0.4em 0;
+}
+main.prose {
+    text-align: justify;
+}
+
+/* Content blocks margins */
+dl, p {
+    margin: 1.5em 0;
+}
+figure,
+blockquote,
+table {
+    margin: 1.5em 2.5em;
+}
+figure > blockquote:first-child,
+figure > table:first-child {
+    margin: 1.5em 0;
+}
+ol,
+ul {
+    margin: 1.5em 0;
+    padding-left: 2.5em;
+}
+dd {
+    margin-left: 2.5em;
+}
+
+/* Content */
+a {
+    color: #00c;
+}
+a:hover {
+    color: #33f;
+}
+a:visited {
+    color: #008;
+}
+a[rel~="external"]::after {
+    content: "↗";
+}
+a[rel~="key"] {
+    text-decoration: none;
+}
+:not(a) > abbr[title] {
+    cursor: help;
+    text-decoration: none;
+}
+address {
+    font-style: inherit;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: serif;
+    font-weight: normal;
+}
+hr {
+    border: #eef solid 2px;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+span.lord {
+    font-variant: small-caps;
+}
+sup a {
+    text-decoration: none;
+}
+sup a::before {
+    content: "[";
+}
+sup a::after {
+    content: "]";
+}
+
+/* Tables */
+table {
+    border-spacing: 0.5em;
+}
+caption {
+    font-weight: bold;
+}
+th {
+    text-align: left;
+}
+table.data {
+    background-color: #fcfcfc;
+    border-collapse: collapse;
+    margin: 1em auto;
+}
+table.data th,
+table.data td {
+    padding: 0.25em 1.5em;
+}
+table.data thead tr {
+    background-color: #eee;
+}
+table.data tbody tr:nth-child(odd) {
+    background-color: #f7f7f7;
+}
+table.data tbody tr:nth-child(even) {
+    background-color: inherit;
+}
+table.files td.size {
+    text-align: right;
+    white-space: nowrap;
+}
+
+/* Lists */
+dt {
+    font-weight: bold;
+}
+dt a[rel~="alternate"] {
+    font-size: 0.75em;
+}
+ul {
+    list-style-type: square;
+}
+
+/* Meta */
+span.file.meta,
+span.link.domain {
+    font-size: 0.75em;
+}
+span.file.meta::before,
+span.link.domain::before {
+    content: '(';
+}
+span.file.meta::after,
+span.link.domain::after {
+    content: ')';
+}
+mark {
+    background-color: #ff8;
+}
+
+/* Animation */
+@keyframes targetFade {
+    0% { background-color: #ffd; }
+    100% { background-color: #fff; }
+}
+:target {
+    animation: targetFade 5s ease;
+}
+
+#index {
+    padding-left: 0;
+}
+#index li {
+    display: inline;
+    margin-right: 0.25em;
+}
+a[title="permalink"] {
+    font-size: 0.6rem;
+    opacity: 0.6;
+    text-decoration: none;
+}
+dd ol, dd p, dd ul {
+    margin: 0;
+}
