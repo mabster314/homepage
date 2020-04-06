@@ -1,0 +1,67 @@
+==================================================================
+https://keybase.io/mabster314
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://max.haland.org
+  * I am mabster314 (https://keybase.io/mabster314) on keybase.
+  * I have a public key with fingerprint 71EF 8F1F 0C24 8B4D 5CDC  1B47 74B3 D790 77EE 37A8
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0101c9004b2db1d2d4436e53d7ba3eb3be5bf0c1c353149e30bc5fd66fa95341895c0a",
+      "fingerprint": "71ef8f1f0c248b4d5cdc1b4774b3d79077ee37a8",
+      "host": "keybase.io",
+      "key_id": "74b3d79077ee37a8",
+      "kid": "0101c9004b2db1d2d4436e53d7ba3eb3be5bf0c1c353149e30bc5fd66fa95341895c0a",
+      "uid": "a10c6fb25df6bfebc8b57b44d5e19b19",
+      "username": "mabster314"
+    },
+    "service": {
+      "hostname": "max.haland.org",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1586196400,
+  "expire_in": 157680000,
+  "prev": "0404c5513f474cb973ac39f3658b150b4cce3b73202d573ca191250a24629cc3",
+  "seqno": 3,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+
+owGtkltsDFEcxnepqGpdIm2oICaRKLXOmXPOzM42UtoH0lY80ESlbOacObMdbXfW
+7OyyaRu0iUuIe3hBhCrqAfGgEXUvD4jEvcSDNiWINg2VxqVxpsGTR08n5zvf98v3
+/+fsyRrpS/cXn3/a0LxZzvXfe099a3bYl+okahspKVQnVfPhg9cYPO6Gqy1DCkkA
+Asg0ADCVDQoN2cAYKZwgQ6U64hRRTqgJGGSIIIg1jgBlxDQUxdQ1gjAMaoQBXcqX
+TCsa4U7MsaKuwKqQm0ETiqSMgxQbhBkMUqyqmAq0BlSVc6TqQRGssuNeQpSjepwH
+LFto4hIervcP/3/unRjG6RAwxaQyMUyFmpyyICUqxaI4hxqFmmeMcyeq13LhrtVp
+3OWOAEsN+ZLQkxbj3mq9Wf56NgSq9Bo9agRsJyLyMcd2bWbXiLcq143FQ17WTcU8
+83pOw78xYWpFDbFLkUhyJ27ZUSkEhZO5lseFJKhATcEA5Et8Q8xyeNjyHERVggB4
+aszhSW9BGFRiRghEJlYxo5qKdIY0EykkSCEBFDPGEVWRDGSDqIjpUIMyAbqMFVlj
+DEneZOuithRCoqceEcy4FYnqbsLhUkPGdj9K8/nTfdNyZqbl/ZByG/2BI7u3vlP/
+/L9RI7zP58sYM+GPcuH46KECY3rRtQ5wuzwn0XSPF6+ahfblLcn+0JJ+6mBRZteX
++rapmcu1hXsn7ZY3FbcXjiub9+z7YOmh3hv1tO/syqH9mrxj/ZE7s+pb5vZ3Jhel
+Onv3NVcse3LtccuavIt3O0GH/3TdAb11caT0wYmNx5tqx069fronY8vNpS9Lphwd
+at2TmNHWdG5M56eeoV1q9Xd1W+uLxrW1dc+2XW4/0FW492TJyWWTEyt+woPltxoG
+Xw1MLOpLfntd/uT5HN/sZif7c3dWycPzvtWnMnMCi5ZXlBa1L3Urrh4eMb9j/Jud
+YTJvYepGZSqXPeJpx776185h2dPKCmYOvH2ZPao36+P9Bd1nrvT0l/wC
+=cZhF
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/mabster314
+
+==================================================================
+
